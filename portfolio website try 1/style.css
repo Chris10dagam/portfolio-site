@@ -1,0 +1,153 @@
+html, body{
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.my-name{
+    color:rgb(16, 35, 75);
+    margin: 20px;
+}
+nav ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 11PX;
+    padding-right: 101px;
+    display: flex;
+    list-style: none;
+    
+}
+nav ul:hover{
+    cursor: pointer;
+}
+a{
+    color: black;
+}
+li{
+    font-family: Lato, sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+.invo{
+    text-align: center;
+}
+
+.me img{
+    display: block;
+    text-align: center;
+    border-radius: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+.space img{
+    margin-right: 35px;
+}
+.con{
+   position: absolute;
+   color: white;
+   background-color: rgb(22, 117, 241);
+   padding: 8px 15px;
+   border-radius: 20px;
+   right: 0;
+   bottom: -5px;
+}
+.con:hover{
+    cursor: pointer;
+    background-color: rgb(53, 80, 116);
+}
+.blue{
+    color: rgb(16, 35, 75);
+}
+main{
+    
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+.extra{
+    display: block;
+    margin: 30px;
+    text-align: center;
+}
+footer{
+    display: block;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(240, 205, 205, 0.767);
+    height:100px ;
+    box-sizing: border-box;
+}
+@media (max-width :640px) {
+    footer{
+        display: block;
+        margin: 0px;
+        text-align: center;
+        background-color: rgba(240, 205, 205, 0.767);
+        height:100px ;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    nav{
+        display: block;
+        justify-self: center;
+    }
+    .me{
+        display: block;
+        margin: 0 auto;
+    }
+    .my-name{
+        display: none;
+    }
+    html, body{
+        font-family: Lato, sans-serif;
+        margin: 0;
+        padding: 0;
+        max-width: fit-content;
+    }
+
+
+
+}
+
+@media (max-width : 800px) {
+    .my-name{
+        display: block;
+        margin: 65px auto ;
+        text-align: center;
+    }
+    footer{
+        display: block;
+        margin: 0px;
+        text-align: center;
+        background-color: rgba(240, 205, 205, 0.767);
+        height:100px ;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 50%;
+        display: block;
+        
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    p{
+        width: 100%;
+    }
+    .me{
+        display: block;
+        margin: 55px auto 10px;
+    }
+    html, body{
+        font-family: Lato, sans-serif;
+        margin: 0;
+        padding: 0;
+        max-width: fit-content;
+    }
+}
